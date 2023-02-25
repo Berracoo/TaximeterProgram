@@ -8,9 +8,11 @@ public class Main {
         double pricePerKm = 2.20;
         Scanner km = new Scanner(System.in);
         System.out.print("How many kilometers you've just came ? : ");
+        // taking input from users
         int way = km.nextInt();
         System.out.println();
         km.close();
+        // minimum price that a customer can pay
         int minimumP = 20;
        if(pricePerKm * way < 11){
             System.out.println("Your last price to pay is : " + minimumP);
