@@ -14,6 +14,8 @@ public class Main {
         km.close();
         // minimum price that a customer can pay
         int minimumP = 20;
+        // the reason why 11 is used is that if we add to the intro price it will pass minimum price
+        // so the price will change.
        if(pricePerKm * way < 11){
             System.out.println("Your last price to pay is : " + minimumP);
 
