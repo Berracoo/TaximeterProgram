@@ -21,7 +21,7 @@ public class Main {
             double lastPrice = introPrice + (way * pricePerKm);
             System.out.println("Your final debt is : " + lastPrice);
         }else if (pricePerKm * way == 0)
-            System.out.println("Please be sure you've entered your data well.");
+            System.out.println("Unfortunately you should make way bigger than 0 km.");
 
          // there is also another way that you can use
         /* int lastPrice = way <= 4 ? minimumP : (int)(introPrice + (pricePerKm * way));
